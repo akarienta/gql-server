@@ -1,0 +1,12 @@
+{
+  "name": "gql-server",
+  "version": "1.0.0",
+  "description": "Testing project to learn Node.js and MongoDB",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akarienta/gql-server.git"
+  },
+  "main": "index.js",
+  "author": "akarienta",
+  "license": "MIT"
+}
