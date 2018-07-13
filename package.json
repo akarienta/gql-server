@@ -6,7 +6,20 @@
     "type": "git",
     "url": "git+https://github.com/akarienta/gql-server.git"
   },
-  "main": "index.js",
+  "main": "src/server.js",
   "author": "akarienta",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js --exec babel-node --presets babel-preset-env"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.1"
+  }
 }
